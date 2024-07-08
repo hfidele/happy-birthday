@@ -1,0 +1,2345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>HAPPY BIRTHDAY DENYSE🎂</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: #d3336f;
+    --hoverColor: #ea4a6e;
+    --blackColor: #000000;
+    --whiteColor: #ffffff;
+    --lightWhite: #fafafa;
+    --grayColor: #989898;
+    --mediumGray: #787878;
+    --lightGray: #030000;
+    --textColor: #0c0606;
+    --borderColor: #eee;
+    --boxShadow1: 0rem .2rem 9.2rem 0rem rgba(0 0 0 / 7%);
+    --boxShadow2: 0rem 0rem 4.8rem 0rem rgba(4 6 4 / 8%);
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(bg.png) var(--lightWhite);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    color: var(--textColor);
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+@media(min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media(min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media(min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.section-title {
+    position: relative;
+    display: inline-block;
+    padding: 0 .3rem;
+}
+
+.section-title h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    height: .7rem;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: var(--primaryColor);
+    opacity: .4;
+}
+
+.btn {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: inherit;
+    text-transform: capitalize;
+    padding: .1rem 2.9rem;
+    line-height: 3.5rem;
+    border: none;
+    border-radius: 5rem;
+    color: var(--blackColor);
+    background-color: var(--primaryColor);
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--hoverColor);
+    color: var(--blackColor);
+}
+
+.wrapper {
+    margin-top: 3rem;
+}
+
+section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/*Start Profile Section*/
+.profile {
+    background-color: var(--whiteColor);
+    border-radius: .6rem;
+    padding-bottom: 3rem;
+    box-shadow: var(--boxShadow1);
+}
+
+.profile-name {
+    padding: 2rem;
+}
+
+.profile .profile-name .job {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #777777;
+}
+
+.profile .profile-img {
+    margin-top: -1.8rem;
+    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+}
+
+.profile .profile-img img {
+    width: 100%;
+}
+
+.profile .profile-info {
+    display: table;
+    margin: 0 auto 3rem;
+}
+
+.profile .profile-info li {
+    position: relative;
+    border-left: .2rem solid var(--borderColor);
+    padding: 0 0 2.3rem 2rem;
+    font-size: 1.4rem;
+    color: var(--mediumGray);
+}
+
+.profile .profile-info li:first-child {
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+}
+
+.profile .profile-info li:last-child {
+    border: none;
+    margin-left: .2rem;
+    margin-top: -.2rem;
+}
+
+.profile .profile-info li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -.6rem;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: var(--whiteColor);
+    border: .2rem solid var(--primaryColor);
+}
+
+.profile .profile-info li:first-child::before {
+    position: absolute;
+    top: -4.2rem;
+    left: -2.3rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: var(--primaryColor);
+    color: var(--blackColor);
+    box-shadow: 0 .2rem 3.2rem 0 rgba(4 123 248 / 30%);
+}
+
+.profile .profile-info li:first-child::after {
+    content: "";
+    position: absolute;
+    top: -2.3rem;
+    left: -1.4rem;
+    width: 3rem;
+    height: 1rem;
+    background: url(glasses.png) no-repeat;
+    background-size: 2.7rem 1rem;
+}
+
+.profile .profile-info li p {
+    font-size: 1.35rem;
+    line-height: 1.2rem;
+    color: var(--mediumGray);
+    text-transform: capitalize;
+}
+
+.profile .profile-info li p span {
+    color: var(--blackColor);
+}
+
+.profile .btn-container {
+    margin: 1.8rem auto 3rem;
+    display: block;
+}
+
+.profile .btn-container .btn {
+    margin-left: auto;
+    margin-right: auto;
+    padding: .1em .6rem .1rem 1.9rem;
+}
+
+.profile .btn-container .btn i {
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    background-color: var(--whiteColor);
+    color: var(--blackColor);
+    font-size: 1.1rem;
+    line-height: 2.7rem;
+    margin-left: 1.5rem;
+}
+
+/*End Profile Section*/
+/*Start MenuBar Section*/
+.right {
+    margin-top: 3rem;
+}
+
+.right header {
+    position: relative;
+    background-color: var(--whiteColor);
+    border-radius: .6rem;
+    margin-bottom: 3rem;
+    box-shadow: var(--boxShadow1);
+}
+
+.right header nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    height: 7rem;
+}
+
+.right header nav .home {
+    background-color: var(--primaryColor);
+    color: var(--blackColor);
+    padding: 0 2.4rem;
+    font-size: 1.6rem;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    border-radius: .6rem 0 0 .6rem;
+}
+
+.right header nav .tabs {
+    position: absolute;
+    top: 4.6rem;
+    left: 0;
+    width: 100%;
+    background-color: var(--whiteColor);
+    border-radius: .8rem;
+    margin-top: 2.5rem;
+    box-shadow: var(--boxShadow1);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9999;
+    transition: all .5s ease;
+}
+
+.right header nav .tabs.active {
+    top: 6rem;
+    visibility: visible;
+    opacity: 1;
+}
+
+.right header nav .tabs li {
+    text-align: center;
+    border-bottom: .1rem solid var(--borderColor);
+    cursor: pointer;
+}
+
+.right header nav .tabs li a {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--blackColor);
+    text-transform: uppercase;
+    padding: 0 1rem;
+    line-height: 5.8rem;
+    transition: all .3s ease;
+}
+
+.right header nav .tabs li a.active,
+.right header nav .tabs li:hover a {
+    color: var(--hoverColor);
+}
+
+.right header nav .social-media {
+    margin-left: auto;
+    margin-right: 1.4rem;
+}
+
+.right header nav .social-media a {
+    display: inline-block;
+    width: 2.4rem;
+    font-size: 1.2rem;
+    color: var(--blackColor);
+    transition: all .3s ease;
+}
+
+.right header nav .social-media a:hover {
+    color: var(--hoverColor);
+}
+
+.right header nav .hire-me {
+    display: none;
+}
+
+.right header nav .hire-me .btn {
+    padding: .1rem .6rem .1rem 1.9rem;
+}
+
+.right header nav .hire-me .btn i {
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    background-color: var(--whiteColor);
+    color: var(--blackColor);
+    font-size: 1.1rem;
+    line-height: 2.7rem;
+    margin-left: 1.5rem;
+}
+
+.right header nav .toggle-btn {
+    font-size: 2rem;
+    color: var(--blackColor);
+    margin-right: 2.3rem;
+    padding-left: 2.1rem;
+    border-left: .1rem solid var(--borderColor);
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*End MenuBar Section*/
+/*Start About Section*/
+main {
+    min-height: 50rem;
+    box-shadow: var(--boxShadow1);
+}
+
+.about {
+    background-color: var(--whiteColor);
+    border-radius: .6rem .6rem 0 0;
+    padding-top: 3rem;
+    padding-bottom: 4.5rem;
+}
+
+.about p {
+    margin-top: 3rem;
+}
+
+/*End About Section*/
+/*Start Services Section*/
+.services {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: var(--lightWhite);
+}
+
+.services .section-title {
+    margin-bottom: 4.5rem;
+}
+
+.services .services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(25rem, 100%), 1fr));
+    gap: 3rem;
+}
+
+.services .services-container .serv {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--whiteColor);
+    border-radius: .8rem;
+    padding: 2rem;
+    min-height: 18.6rem;
+    box-shadow: var(--boxShadow2);
+}
+
+.services .services-container .serv i {
+    font-size: 4.4rem;
+}
+
+.services .services-container .serv h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 1rem 0;
+}
+
+.services .services-container .serv p {
+    color: var(--grayColor);
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+/*End Services Section*/
+/*Start Skills Section*/
+.skills {
+    background-color: var(--whiteColor);
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    border-radius: 0 0 .6rem .6rem;
+}
+
+.skills .section-title {
+    margin-bottom: 4.5rem;
+}
+
+.skills .design-skills {
+    padding-bottom: 5rem;
+}
+
+.skills .skills-container .skill h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.skills .skills-container .skill .progress {
+    width: 100%;
+    height: .5rem;
+    background-color: var(--lightGray);
+    border-radius: 2rem;
+    margin: 1rem 0 2rem;
+}
+
+.skills .skills-container .skill .progress span {
+    display: block;
+    height: 100%;
+    background-color: var(--primaryColor);
+    border-radius: 2rem 0 0 2rem;
+}
+
+/*End Skills Section*/
+/*Start Resume Section*/
+.resume {
+    background-color: var(--whiteColor);
+    border-radius: .6rem .6rem 0 0;
+}
+
+.resume .section-title {
+    margin-top: 3rem;
+}
+
+.resume .resume-container .work,
+.resume .resume-container .education {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.resume .resume-container ul {
+    margin-top: 5rem;
+}
+
+.resume .resume-container ul li {
+    position: relative;
+    border-left: .2rem solid var(--borderColor);
+    padding: 0 0 4rem 3rem;
+}
+
+.resume .resume-container ul li:first-child {
+    padding: 0 0 6rem 1.9rem;
+}
+
+.resume .resume-container ul li:first-child i {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.8rem;
+    width: 5.3rem;
+    height: 5.3rem;
+    border-radius: 50%;
+    background-color: var(--primaryColor);
+    color: var(--blackColor);
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume .resume-container ul li:not(:first-child)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -.6rem;
+    width: .6rem;
+    height: .6rem;
+    border-radius: 50%;
+    border: .2rem solid var(--primaryColor);
+    background-color: var(--whiteColor);
+}
+
+.resume .resume-container ul li:last-child {
+    border: none;
+    margin-left: .2rem;
+}
+
+.resume .resume-container ul li:first-child h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-left: 2.5rem;
+    text-transform: capitalize;
+}
+
+.resume .resume-container ul li h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.resume .resume-container ul li span {
+    display: block;
+    font-size: 1.2rem;
+    padding: .9rem 0;
+}
+
+.resume .resume-container ul li p {
+    font-weight: 400;
+    color: var(--grayColor);
+}
+
+/*End Resume Section*/
+/*Start Clients Section*/
+.clients {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    background-color: var(--lightWhite);
+}
+
+.clients .section-title {
+    margin-bottom: 3rem;
+}
+
+.clients .clients-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.clients .clients-container .client {
+    padding: 2.6rem 1.6rem;
+    background-color: var(--whiteColor);
+    border-radius: .8rem;
+    margin-bottom: 3rem;
+    box-shadow: var(--boxShadow2);
+}
+
+.clients .clients-container .client img {
+    width: 100%;
+}
+
+/*End Clients Section*/
+/*Start Testimonials Section*/
+.testimonials {
+    background-color: var(--whiteColor);
+    padding-bottom: 4.5rem;
+    border-radius: 0 0 .6rem .6rem;
+}
+
+.testimonials .section-title {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.testimonials .testimonial-container .testimonial {
+    padding: 1.5rem;
+    border-radius: .8rem;
+    box-shadow: var(--boxShadow2);
+}
+
+.testimonials .testimonial-container .testimonial .top-section {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials .testimonial .top-section .image {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonials .testimonial .top-section .image img {
+    width: 100%;
+}
+
+.testimonials .testimonial .top-section .name-info {
+    padding: .8rem 1.2rem;
+}
+
+.testimonials .testimonial .top-section .name-info h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.testimonials .testimonial .top-section .name-info span {
+    font-size: 1.2rem;
+    color: var(--grayColor);
+}
+
+.testimonials .testimonial hr {
+    width: 100%;
+    margin: .6rem 0 1rem;
+    border: 0;
+    border-top: .1rem solid var(--borderColor);
+}
+
+.testimonials .testimonial p {
+    font-size: 1.25rem;
+    color: var(--grayColor);
+    line-height: 2rem;
+}
+
+.swiper {
+    padding-bottom: 5rem;
+}
+
+.swiper-pagination {
+    bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--primaryColor);
+    margin: 0 .5rem !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--primaryColor);
+}
+
+/*End Testimonials Section*/
+/*Start Portfolio Section*/
+.portfolio {
+    background-color: var(--whiteColor);
+    border-radius: .6rem;
+    padding-bottom: 5rem;
+}
+
+.portfolio .section-title {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.portfolio .filter {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 2.3rem;
+}
+
+.portfolio .filter li {
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    margin-right: 1.5rem;
+    color: var(--mediumGray);
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.portfolio .filter li.active {
+    color: var(--primaryColor);
+}
+
+.portfolio .portfolio-container {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+    gap: 3rem;
+}
+
+.portfolio .portfolio-container .box {
+    background-color: var(--whiteColor);
+    border-radius: .6rem;
+    box-shadow: var(--boxShadow2);
+    overflow: hidden;
+    display: none;
+
+}
+
+.portfolio .portfolio-container .box.active {
+    display: block;
+    animation: fadeIn .5s ease
+}
+
+@keyframes fadeIn {
+    from {
+        transform: skewY(-20deg) scale(0);
+    }
+
+    to {
+        transform: skewY(0deg) scale(1);
+    }
+}
+
+.portfolio .portfolio-container .box .image img {
+    width: 100%;
+}
+
+.portfolio .portfolio-container .box .details {
+    padding: 1.4rem;
+}
+
+.portfolio .portfolio-container .box .details h4 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: var(--blackColor);
+}
+
+.portfolio .portfolio-container .box .details p {
+    font-size: 1.3rem;
+    color: var(--grayColor);
+}
+
+/*End Portfolio Section*/
+/*Start Blog Section*/
+.blog {
+    background-color: var(--whiteColor);
+    border-radius: .6rem;
+    padding-bottom: 5rem;
+}
+
+.blog .section-title {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.blog .blog-container {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+    gap: 3rem;
+}
+
+.blog .blog-container .blog-item {
+    background-color: var(--whiteColor);
+    border-radius: .6rem;
+    box-shadow: var(--boxShadow2);
+    overflow: hidden;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.blog .blog-container .blog-item:hover {
+    box-shadow: 0 0 .8rem 0 rgba(4 6 4 / 8%);
+}
+
+.blog .blog-container .blog-item .blog-img img {
+    width: 100%;
+}
+
+.blog .blog-container .blog-item .blog-details {
+    padding: 1.5rem;
+}
+
+.blog .blog-container .blog-item .blog-details .category {
+    font-size: 1.3rem;
+    color: var(--grayColor);
+    text-transform: capitalize;
+}
+
+.blog .blog-container .blog-item .blog-details h3 {
+    font-size: 1.5rem;
+    color: var(--blackColor);
+    padding: .2rem 0 .4rem;
+    line-height: 2rem;
+}
+
+.blog .blog-container .blog-item .blog-details p {
+    color: var(--grayColor);
+    padding: .5rem 0;
+    line-height: 1.8rem;
+}
+
+.blog .blog-container .blog-item .blog-details .date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: #505050;
+}
+
+/*End Blog Section*/
+/*Start Contact Section*/
+.contacts {
+    background-color: var(--whiteColor);
+    border-radius: .6rem;
+}
+
+.contacts .contact,
+.contacts .contact-info,
+.contacts .contact-map {
+    padding-top: 3rem;
+    padding-bottom: 4.5rem;
+}
+
+.contacts .contact .section-title,
+.contacts .contact-info .section-title,
+.contacts .contact-map .section-title {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.contacts .contact form .form-group input {
+    width: 100%;
+    height: 4.5rem;
+    border: none;
+    outline: none;
+    border-bottom: .1rem solid var(--lightGray);
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.contacts .contact form .form-group textarea {
+    font-family: inherit;
+    width: 100%;
+    min-height: 10rem;
+    outline: none;
+    border: none;
+    border-bottom: .1rem solid var(--lightGray);
+    font-size: 1.3rem;
+    padding: 2rem 0 0 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.contacts .contact form .form-group input:focus::placeholder,
+.contacts .contact form .form-group textarea:focus::placeholder {
+    opacity: 0;
+}
+
+.contacts .contact-info ul li {
+    font-size: 1.4rem;
+    color: var(--mediumGray);
+    line-height: 3.4rem;
+}
+
+.contacts .contact-info ul li span {
+    text-transform: capitalize;
+    color: var(--blackColor);
+}
+
+.contacts .contact-info ul li .social-media {
+    margin-top: 1.5rem;
+}
+
+.contacts .contact-info ul li .social-media a {
+    display: inline-block;
+    color: var(--blackColor);
+    font-size: 1.2rem;
+    width: 2.4rem;
+    height: 1.8rem;
+    transition: all .3s ease;
+}
+
+.contacts .contact-info ul li .social-media a:hover {
+    color: var(--hoverColor);
+}
+
+/*End Contact Section*/
+/*Start Footer Section*/
+footer {
+    background-color: #1e1e1e;
+    min-height: 7rem;
+    border-radius: .8rem;
+    color: var(--whiteColor);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0 1.5rem;
+}
+
+footer .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 7rem;
+}
+
+footer .footer-container h2 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding-left: 1.5rem;
+    display: none;
+}
+
+footer .footer-container .copyright {
+    padding-right: 1.5rem;
+    text-align: center;
+}
+
+footer .footer-container .copyright p {
+    color: #9c9c9c;
+    font-size: 1.2rem;
+}
+
+footer .footer-container .copyright p a {
+    color: var(--whiteColor);
+}
+
+/*End Footer Section*/
+.section {
+    transform: scale(0);
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: height .5s, transform .6s, visibility .7s, opacity .8s ease-in-out;
+}
+
+.section.active {
+    transform: scale(1);
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+}
+
+.settings {
+    position: fixed;
+    top: 15.8rem;
+    left: -20rem;
+    width: 20rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--whiteColor);
+    box-shadow: 0 0 .8rem rgba(0 0 0 / 15%);
+    transition: all .5s ease;
+}
+
+.settings.show {
+    left: 0;
+}
+
+.settings .icon {
+    position: absolute;
+    top: 0;
+    right: -5.1rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--whiteColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    padding: 1.5rem 0;
+    cursor: pointer;
+}
+
+.settings .icon i {
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.settings .settings-inner h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--grayColor);
+    margin-bottom: 1.2rem;
+    line-height: 3.3rem;
+    height: 4rem;
+    border-bottom: .1rem solid var(--borderColor);
+}
+
+.settings .settings-inner ul li {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin: .6rem;
+    cursor: pointer;
+}
+
+.settings .settings-inner ul li:first-child {
+    background-color: #ffc500;
+}
+
+.settings .settings-inner ul li:nth-child(2) {
+    background-color: #52bf00;
+}
+
+.settings .settings-inner ul li:nth-child(3) {
+    background-color: #d81300;
+}
+
+.settings .settings-inner ul li:nth-child(4) {
+    background-color: #425cbb;
+}
+
+.settings .settings-inner ul li:nth-child(5) {
+    background-color: #BF55EC;
+}
+
+.settings .settings-inner ul li:nth-child(6) {
+    background-color: #00b4d9;
+}
+
+.settings .settings-inner ul li:nth-child(7) {
+    background-color: #029A83;
+}
+
+.settings .settings-inner ul li:nth-child(8) {
+    background-color: #f62459;
+}
+
+.settings .settings-inner ul li:nth-child(9) {
+    background-color: #ff5a14;
+}
+
+.settings .settings-inner ul li:nth-child(10) {
+    background-color: #ABB7B7;
+}
+
+.settings .settings-inner hr {
+    margin: 2rem 0;
+    border-top: .1rem solid var(--borderColor);
+}
+
+.settings .settings-inner .reset {
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: .3rem;
+    border: none;
+    outline: none;
+    background-color: #5bc0de;
+    color: var(--whiteColor);
+    text-transform: capitalize;
+    margin: 0 auto 1.3rem auto;
+    cursor: pointer;
+}
+
+.preloader {
+    position: fixed;
+    inset: 0;
+    background-color: var(--whiteColor);
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+}
+
+.preloader.hide {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+}
+
+.spinner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    background-color: var(--whiteColor);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.spinner img {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.spinner::after {
+    content: "";
+    position : absolute;
+    inset: 0;
+    background: linear-gradient(to right, var(--primaryColor) 10%, rgba(255, 255, 255, 0) 42%);
+    z-index: -1;
+    animation: load 1.4s infinite linear;
+}
+
+@keyframes load {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*Responsive*/
+@media(min-width: 768px) {
+
+    .right header nav .social-media,
+    .right header nav .toggle-btn {
+        display: none;
+    }
+
+    .right header nav .tabs {
+        position: relative;
+        top: 0;
+        left: 0;
+        visibility: visible;
+        opacity: 1;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 0;
+        margin-top: 0;
+        box-shadow: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .right header nav .tabs li {
+        border-bottom: 0;
+    }
+
+    .right header nav .hire-me {
+        display: flex;
+        margin-right: 2rem;
+    }
+
+    .right header nav .hire-me .btn {
+        width: 12rem;
+    }
+
+    .clients .clients-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 3rem;
+    }
+
+    .clients .clients-container .client {
+        flex-basis: calc(50% - 1.5rem);
+    }
+}
+
+@media(min-width: 992px) {
+
+    .wrapper {
+        display: flex;
+        margin-top: 6rem;
+        gap: 3rem;
+    }
+
+    .profile {
+        width: 33.3333%;
+        padding-bottom: 0;
+        align-self: flex-start;
+    }
+
+    .right {
+        margin-top: 0;
+        width: 66.6666%;
+    }
+
+    .skills {
+        display: flex;
+    }
+
+    .skills .design-skills,
+    .skills .code-skills {
+        flex-basis: 50%;
+    }
+
+    .skills .design-skills {
+        padding: 0 3rem 0 0;
+    }
+
+    .skills .code-skills {
+        padding: 0 0 0 3rem;
+    }
+
+    .resume .resume-container {
+        display: flex;
+    }
+
+    .resume .resume-container .work,
+    .resume .resume-container .education {
+        flex-basis: 50%;
+    }
+
+    .clients .clients-container {
+        column-gap: 2rem;
+    }
+
+    .clients .clients-container .client {
+        flex-basis: calc(25% - 1.5rem);
+    }
+
+    .contacts .contact form .form-group {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .contacts {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contacts .contact {
+        padding-right: 3rem;
+    }
+
+    .contacts .contact-info {
+        padding-left: 3rem;
+    }
+
+    .contacts .contact,
+    .contacts .contact-info {
+        flex-basis: 50%;
+    }
+
+    .contacts .contact-map {
+        flex-basis: 100%;
+    }
+
+    footer .footer-container {
+        justify-content: space-between;
+    }
+
+    footer .footer-container h2 {
+        display: flex;
+    }
+}
+
+@media(min-width: 1200px) {
+    .profile {
+        width: 25%;
+    }
+
+    .right {
+        width: 75%;
+    }
+
+    .right header nav .social-media {
+        display: flex;
+    }
+
+    .services .services-container {
+        grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr));
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="wrapper container">
+        <div class="profile">
+            <div class="profile-name">
+                <h1>UMUGWANEZA DENYSE</h1>
+                <span class="job">ISABUKURU NZIZA DENYSE🎂</span>
+            </div>
+            <div class="profile-img">
+                <img src="profile.jpg" alt="profile">
+            </div>
+            <ul class="profile-info">
+                <li></li>
+                <li>
+                    <p>
+                        <span>names:</span>
+                        UMUGWANEZA DENYSE
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span>birthday:</span>
+                        08 JULY
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span>Occupations:</span>
+                        Student
+                    </p>
+                </li>
+            </ul>
+            <div class="btn-container">
+                <a href="https://wa.me/message/OQOVP6ZESG43P1?src=qr">
+                    <button class="btn">
+                        Message
+                        <i class="fa-regular fa-message"></i>
+                    </button>
+                </a>
+                <br>
+                <a href="https://hfidele.github.io/willy/random.html">
+                    <button class="btn">
+                        Love Quotes
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="right">
+            <header>
+                <nav>
+                    <a href="#" class="home" data-sec="home">
+                        <i class="fas fa-home"></i>
+                    </a>
+                    <ul class="tabs" id="tabs">
+                        <li><a href="#" data-sec="resume">HAPPY LIFE</a></li>
+                        <li><a href="#" data-sec="portfolio">MOTIVATIONS</a></li>
+                        <li><a href="#" data-sec="blog">WISHES</a></li>
+                        <li><a href="#" data-sec="contact">CONTACTS</a></li>
+                    </ul>
+                    <div class="social-media">
+                        <a href="https://wa.me/message/OQOVP6ZESG43P1?src=qr"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/fidele.willy.33"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/fidelewilly6?utm_source=qr&igsh=dTIOd256Y2sOZXQW"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@fidele_willy?_t=8nMXkh4XNzC&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                        
+                    </div>
+                    <div class="hire-me">
+                        <a href="https://hfidele.github.io/willy/random.html">
+                            <button class="btn">
+                                Quotes
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="toggle-btn" id="toggleBtn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <div class="section active" id="home">
+                    <section class="about">
+                        <div class="section-title">
+                            <h2>The Jurney of Life</h2>
+                        </div>
+                        <p>
+                            God created the cow, and he said to the cow,
+                             "I have created you as a cow. You need to go to the field with the farmer 
+                             and work under the sun all day. I will give you a lifespan of 60 years."
+                              The cow disagreed, "What? Such a hard life! You want me to endure for 60 years?
+                               I only need 20 years, and you can take back the other 40 years." God agreed.
+                            <br>
+                            <br>
+                            The next hour, God created the dog.
+                             God said to the dog, "You have to sit at the door of your house all day, and if someone comes in, bark loudly.
+                              I will give you a lifespan of 20 years." The dog was not happy and said, "What? Sitting at the door all day?
+                               Definitely not! I only need 10 years, and the other 10 years you can keep." God agreed.
+                             <br>
+                             <br>
+                             The next hour, God created the monkey.
+                              He said to the monkey, "As a monkey, you must entertain the guests, play monkey tricks, and make people happy.
+                               I will give you a lifespan of 25 years."
+                                The monkey wouldn't do it and said, "What? Make people laugh, make faces, and perform tricks? 10 years is enough, and the remaining 15 years you keep.
+                                " God agreed.
+                            <br />
+                            <br />
+                            The next hour, God created human beings. God said to the human beings, 
+                            "You just need to eat, drink, have fun, rest, and sleep, and live comfortably.
+                             You don't have to do anything else, just enjoy to the fullest.
+                              I will give you a lifespan of 20 years." Human beings objected and
+                               said, "What? Such a good life, eating, drinking, having fun, resting, and sleeping comfortably. 
+                               Only 20 years? No." God said, "How about this? The cow gives you back 40 years, the dog gives you back 10 years, and the monkey also gives you back 15 years."
+                                "Just give me all their returned time so that I can live for 85 years," said the human being. God agreed.
+                            <br>
+                            <br>
+                            Now, do you understand? The first 20 years are the days of being human, enjoying life comfortably.
+                             Then, the next 40 years are the days of being a cow, working hard all day long to support the family.
+                              The next 15 years are the days of being a monkey, making faces to entertain grandchildren until they grow up and leave you.
+                               The last 10 years are the days of being a dog, staying at home all day, sitting at the door, and nagging at others.
+                              <h2>
+                                Happy birthday Denyse🎉🍧
+                              </h2>
+                              <li>
+                                <p>
+                                    <span style="color: #52bf00;">Name meaning:</span><br>
+                                    Denyse, a girl's name with French roots, means "<span style="color: #52bf00;">FOLLOWER OF DIONYSUS.</span>"
+                                    In Greek mythology, Dionysus is the god of the grape harvest, 
+                                    vegetation, and orchards, but he is most commonly known the god of wine, festivity, and pleasure.
+                                </p>
+                            </li>
+                            </p>
+                    </section>
+                    <section class="services">
+                        <div class="section-title">
+                            <h2>YOU SHOULD KNOW</h2>
+                        </div>
+                        <div class="services-container">
+                            <div class="serv">
+                                <div class="icon">
+                                    <i class="fa-solid fa-person-praying"></i>
+                                    <h3>BLESSINGS</h3>
+                                    <p>Count your blessings, not your problems.
+                                        Your mindset is what sets the tone for everything in your life.
+                                        <br>
+                                        <br>
+                                        Changing your mindset is what will <span class="word">change your life</span>
+                                        What we think and believe is what we act upon.
+                                        <br>
+                                        <br>
+                                        Change your <span class="word">perspective</span> from now on anytime anything negative happens, instead of feeling
+                                        like victim, ask yourself what you can contlor or change.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="serv">
+                                <div class="icon">
+                                    <i class="fa-regular fa-file-lines"></i>
+                                    <h3>LEARNING</h3>
+                                    <p>
+                                        Embrace learning and stay curious.
+                                        The world is constantly changing, and the skills you develop today will shape your future.
+                                        Be reslient in the face of challenges, stay true to your values, and don't be afraid to take risks.
+                                        Remember, it's okay to fail-each fail is a step towards success.
+                                        Suround yourself with supportive people, and always strive to make a postive impact on the world.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="serv">
+                                <div class="icon">
+                                    <i class="fas fa-pen-nib"></i>
+                                    <h3>FUTURE</h3>
+                                    <p>Future holds endless possiblities with innovation, compassion, and determination, we can 
+                                        overcome challenges and create a brighter, more inclusive world. <br>
+                                        <br>
+                                        Each day is an opportunity to make progress a nd build a better tomorrow.
+                                    </p>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </section>
+                    <section class="skills">
+                        <div class="design-skills">
+                            <div class="section-title">
+                                <h2>HOBBIES😍</h2>
+                            </div>
+                            <div class="skills-container">
+                                <div class="skill">
+                                    <h3>READING</h3>
+                                    <div class="progress">
+                                        <span style="width: 100%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <h3>WATCHING MOVIES</h3>
+                                    <div class="progress">
+                                        <span style="width: 100%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <h3>HELPING</h3>
+                                    <div class="progress">
+                                        <span style="width: 100%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-skills">
+                            <div class="section-title">
+                                <h2>GOOD LIFE😂</h2>
+                            </div>
+                            <div class="skills-container">
+                                <div class="skill">
+                                    <h3>GOD</h3>
+                                    <div class="progress">
+                                        <span style="width: 100%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <h3>HAPPY FAMILY</h3>
+                                    <div class="progress">
+                                        <span style="width: 100%"></span>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <h3>FRIENDS</h3>
+                                    <div class="progress">
+                                        <span style="width: 100%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="section" id="resume">
+                    <section class="resume">
+                        <div class="section-title">
+                            <h2>JOYFUL😂😂</h2>
+                        </div>
+                        <div class="resume-container">
+                            <div class="work">
+                                <ul>
+                                    <li>
+                                        <h2>HAPPY LIFE😂</h2>
+                                        <i class="fa-solid fa-clock"></i>
+                                    </li>
+                                    <li>
+                                        <p>
+                                          ...Family comes first,
+                                          never forget who was by your side from start.
+                                          Make time for:
+                                          <span style="color: blue;">-YOUR FAMILY</span>
+                                          <span style="color: blue;">-YOUR FRIENDS</span>
+                                          <span style="color: blue;">-YOUR PARTNER</span>
+                                        </p>
+                                        <br>
+                                        <p>
+                                          ...Stop comparing yourself to others,
+                                          "Comparison is the thief of joy"
+                                          Focus on :
+                                          <span style="color: blue;">-YOUR PURPOSE</span>
+                                          <span style="color: blue;">-YOUR EXPERIENCE</span>
+                                          <span style="color: blue;">-OWNING YOUR FEELINGS</span>
+                                          <span style="color: blue;">-TURNING YOUR ATTENTION INWARD</span>
+
+                                          The only competition is staring back 
+                                          at you in the mirror.
+
+                                        </p>
+
+                                        <br>
+
+                                        <p>
+                                            ...Find a support system,
+                                            You are a product of your environment.
+                                            Surround yourself with people who are :
+                                            <span style="color: blue;">-KIND</span>
+                                            <span style="color: blue;">-HONEST</span>
+                                            <span style="color: blue;">-POSITIVE</span>
+                                            <span style="color: blue;">ENERGETIC</span>
+                                            <span style="color: blue;">SUPPORTIVE</span>
+
+                                            Choose your friend sparingly and wisely.
+                                        </p>
+
+                                        <br>
+                                            <p> 
+                                               ...Someone out there feels better because you exist. 
+                                            </p>
+
+                                            <br>
+
+                                            <p>
+                                                ...Do your best and trust the process.
+                                                The harder you work, the luckier you will get.
+                                            </p>
+
+                                            <br>
+                                            <p>
+                                               ...Happiness depend on your attitude, not on what you have.
+                                               Be nice for no reason.
+                                            </p>
+
+                                            <br>
+
+                                            <p>
+                                              ...Respect yourself,
+                                               people learn how to treat
+                                               you based on how you treat yourself.
+                                               How to respect yourself :
+                                               <span style="color: blue;">-TAKE ACTION</span>
+                                               <span style="color: blue;">-ACCEPT YOURSELF</span>
+                                               <span style="color: blue;">-CUT OUT NEGATIVE PEOPLE</span>
+
+                                               You are in control of how you will be
+                                               treated.
+                                            </p>
+                                            <br>
+                                            <p>
+                                                ...Accept your past and move on, stop getting stuck in your past.
+                                                Learn from your past to make a better future.
+                                                The present is the only place you can :
+                                                 <span style="color: blue;">-ACT</span> <span style="color: blue;">-LIVE</span>
+                                                 <span style="color: blue;">-LOVE</span> 
+
+                                            </p>
+                                            <br>
+                                            <p>
+                                                ...Be grateful for what you have, "I cried because I had no shoes until 
+                                                I met a man who had no feed"
+
+                                                Be thankful for 
+                                                <span style="color: blue;">-YOUR LIFE</span>
+                                                <span style="color: blue;">-YOUR JOB</span>
+                                                <span style="color: blue;">-YOUR HOME</span>
+                                                <span style="color: blue;">-YOUR FAMILY</span>
+                                                <span style="color: blue;">-YOUR HEALTH</span>
+
+                                                Be thankful for what you have, no matter how "small".
+                                            </p>
+
+                                            <br>
+
+                                            <p>
+                                                ...Be proud of yourself.
+                                            </p>
+
+                                    </li>
+                                    <li>
+                                        <h2>UMUGWANEZA DENYSE</h2>
+                                        <span>Believe in God!</span>
+                                        <p>
+                                        </p>
+                                    </li>
+                                    <li>
+                                    
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="education">
+                                <ul>
+                                    <li>
+                                        <h2></h2>
+                                        <i class="fa-solid fa-graduation-cap"></i>
+                                    </li>
+                                    <li>
+                                        <h3></h3>
+                                        <p>
+                                            
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h2>7 LIFE LESSONS</h2>
+                                        
+                                        <p>
+                                            <span style="color: #5bc0de;">1.YOUR FAMILY IS MOST IMPORTANT</span>
+                                            Your family comes first.You need to keep in mind that if you're facing 
+                                            any problem-there will be your family who will always support you.
+                                            And stand beside you in any situation.
+                                        </p>
+                                    </li>
+                                    <li>
+
+                                        <p>
+                                            <span style="color: #5bc0de;">2. TIME IS THE MOST VALUABLE THING</span>
+                                            Everyone has 24 hours only so it's up to you how you use this time.
+                                            Some spend their time learning some skill and some waste this time scrolling on socia media.
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <span style="color: #5bc0de;">3. CHOOSE YOUR FRIEND WISELY</span>
+                                            Friends can make you or break you.
+                                            Don't make too many friends, have small circle.
+                                            Your friends should be real, not fake ones.
+                                            They should uplift you, motivate you, and support you for your passion.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <span style="color: #5bc0de;">4. BELIEVE IN WHAT YOU ARE DOING</span>
+                                            You must believe in yourself when you believe in something your half work is done.
+                                            Only believing make it posssible.
+                                            anything you can do if you just believe.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <span style="color: #5bc0de;">5. LIFE IS WHAT YOU MAKE IT</span>
+                                            It's totally in your own hands, how you want your life to look like.
+                                            Your decisions matter a lot, your thinking matters a lot, and how you do things 
+                                            and take actions matters a lot.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <span style="color: #5bc0de;">6. LISTEN TO WHAT YOUR ELDERS SAY</span>
+                                            When we're growing up in 20s, we think that we know everthing about the world.
+                                            But the reality is we don't know anything about the world.
+                                            So please listen to elders carefully what they are teaching you about the world, relationships,  friendships, 
+                                            money, life, and the list goes on.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <span style="color: #5bc0de;">7. SPEND MORE TIME MAKING BIG DECISIONS</span>
+                                            Your life's progress depends on which decisions you have taken. Don't make big decisions with emotions.
+                                            Think about every aspect when making a decision that is going to change your life.
+                                        </p>
+                                    </li>
+                                    <h2 style="color: red;">HAPPY BIRTHDAY DENYSE UMUGWANEZA🍔🍧🧁</h2>
+                                    <h2><p>WE LOVE YOU❤️❤️</p></h2>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="clients">
+                        <div class="section-title">
+                            <h2>ENJOY❤️</h2>
+                        </div>
+                        <div class="clients-container">
+                            <div class="client">
+                                <img src="short.jpg" alt="">
+                            </div>
+                            <div class="client">
+                                <img src="sit.jpg" alt="">
+                            </div>
+                            <div class="client">
+                                <img src="smile.jpg" alt="">
+                            </div>
+                            <div class="client">
+                                <img src="IMG-20240323-WA0008.jpg" alt="">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="testimonials">
+                        <div class="section-title">
+                            <h2>HAPPY LIFE😂</h2>
+                        </div>
+                        <div class="testimonial-container swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="testimonial swiper-slide">
+                                    <div class="top-section">
+                                        <div class="image">
+                                            <img src="short.jpg" alt="">
+                                        </div>
+                                        <div class="name-info">
+                                            <h4>PRAY</h4>
+                                            <span>The power of prayers.</span>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <p>
+                                        I pray you heal
+                                        from things no one ever apologized for.
+                                    </p>
+                                </div>
+                                <div class="testimonial swiper-slide">
+                                    <div class="top-section">
+                                        <div class="image">
+                                            <img src="short.jpg" alt="">
+                                        </div>
+                                        <div class="name-info">
+                                            <h4>DO GOOD</h4>
+                                            <span>Positive mind</span>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <p>
+                                        When you stop chasing the wrong things, you give the 
+                                        right things a chance to catch you.
+                                    </p>
+                                </div>
+                                <div class="testimonial swiper-slide">
+                                    <div class="top-section">
+                                        <div class="image">
+                                            <img src="short.jpg" alt="">
+                                        </div>
+                                        <div class="name-info">
+                                            <h4>BE GENTLE</h4>
+                                            <span>Open new chapter</span>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <p>
+                                        Be gentle. You are meeting parts of yourself you have been at war with.
+                                    </p>
+                                </div>
+                                <div class="testimonial swiper-slide">
+                                    <div class="top-section">
+                                        <div class="image">
+                                            <img src="short.jpg" alt="">
+                                        </div>
+                                        <div class="name-info">
+                                            <h4>YOUR EXISTANCE</h4>
+                                            <span>The life</span>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <p>
+                                        Someone out there feels better because you exist.
+                                    </p>
+                                </div>
+                                <div class="testimonial swiper-slide">
+                                    <div class="top-section">
+                                        <div class="image">
+                                            <img src="short.jpg" alt="">
+                                        </div>
+                                        <div class="name-info">
+                                            <h4>INSIDE YOU</h4>
+                                            <span>Be kind to yourself.</span>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <p>
+                                        You will never speak to anyone more than you speak to yourself in your head. 
+                                        Be kind to yourself. Always.
+                                    </p>
+                                </div>
+                                <div class="testimonial swiper-slide">
+                                    <div class="top-section">
+                                        <div class="image">
+                                            <img src="short.jpg" alt="">
+                                        </div>
+                                        <div class="name-info">
+                                            <h4>MIND</h4>
+                                            <span>No matter what..</span>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <p>
+                                        Keep your heart pure, no matter what you go through in life.
+                                        You will always be blessed in so many ways.
+                                    </p>
+                                </div>
+                        
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </section>
+                </div>
+                <div class="section" id="portfolio">
+                    <section class="portfolio">
+                        <div class="section-title">
+                            <h2>JOYFUL😂🤣😘</h2>
+                        </div>
+                        <ul class="filter">
+                            <li class="active" data-profile="all">all</li>
+                            <li data-profile="webdesign">Winners🙆‍♀️</li>
+                            <li data-profile="motion">Goals⛷️</li>
+                            <li data-profile="illustration">Helping🕊️</li>
+                            <li data-profile="photography">Love❤️</li>
+                        </ul>
+                        <div class="portfolio-container">
+                            <div class="box webdesign active">
+                                <div class="image">
+                                    <img src="IMG-20240323-WA0008.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>
+                                        Winners
+                                    </h4>
+                                    <p>
+                                        Winners keep their eyes on the goal.
+                                        Distraction will come, but your focus determines your reality.
+                                        Stay commited and push forward.
+                                    </p>
+                                </div>
+                            <div class="box photography active">
+                                <div class="image">
+                                    <img src="IMG-20240708-WA0005.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Love❤️</h4>
+                                    <p>Taking time to listen and understand the feelings and perspectives of others helps build strong,
+                                         compassionate relationships. This includes offering support during difficult times and 
+                                         celebrating success together.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="box photography active">
+                                <div class="image">
+                                    <img src="stand.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Love❤️</h4>
+                                    <p>Small, thoughtful actions like helping with chores, voluntering, or being there for someone
+                                        can significantly impact and demonstrate love and care.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="box motion active">
+                                <div class="image">
+                                    <img src="smile.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Goals</h4>
+                                    <p>Work on building integrity, empathy, and resiliance.
+                                    These traits will guide you in making ethical decisions and maintaining healthy relationships.</p>
+                                </div>
+                            </div>
+                            <div class="box webdisgn active">
+                                <div class="image">
+                                    <img src="up.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Time⌚</h4>
+                                    <p>Time is an investment.</p>
+                                </div>
+                            </div>
+                            <div class="box illustration active">
+                                <div class="image">
+                                    <img src="IMG-20240708-WA0000.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Time⌚</h4>
+                                    <p>Time waits for no one.</p>
+                                </div>
+                            </div>
+                            <div class="box illustration active">
+                                <div class="image">
+                                    <img src="IMG-20240708-WA0007.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Time⌚</h4>
+                                    <p>Lost time is never found again.</p>
+                                </div>
+                            </div>
+                            <div class="box illustration active">
+                                <div class="image">
+                                    <img src="IMG-20240708-WA0008.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Time⌚</h4>
+                                    <p>The key is in not spending time, but investing in it.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                            <div class="box motion active">
+                                <div class="image">
+                                    <img src="good.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Goals</h4>
+                                    <p>Work on building integrity, empathy, and resiliance.
+                                        These traits will guide you in making ethical decisions and maintaining healthy relationships.</p>
+                                </div>
+                            </div>
+                            <div class="box photography active">
+                                <div class="image">
+                                    <img src="sit.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Love❤️</h4>
+                                    <p>Taking time to listen and understand the feelings and perspectives of others helps build strong,
+                                        compassionate relationships. This includes offering support during difficult times and 
+                                        celebrating success together.</p>
+                                </div>
+                            </div>
+                            <div class="box photography active">
+                                <div class="image">
+                                    <img src="IMG-20240708-WA0006.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Love❤️</h4>
+                                    <p>Small, thoughtful actions like helping with chores, voluntering, or being there for someone
+                                        can significantly impact and demonstrate love and care.</p>
+                                </div>
+                            </div>
+                            <div class="box motion active">
+                                <div class="image">
+                                    <img src="IMG-20240708-WA0006.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Goals</h4>
+                                    <p>Develop a new skill, or hobby within three months, such aslearning to play musical instrument,
+                                        coding, or cooking.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="box webdisgn active">
+                                <div class="image">
+                                    <img src="stand.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Time⌚</h4>
+                                    <p>Time is what we want most, but what we use worst.</p>
+                                </div>
+                            </div>
+                            <div class="box illustration active">
+                                <div class="image">
+                                    <img src="sit.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Helping</h4>
+                                    <p>Your selflessness and compassion are beacons of hope.Keep shinning, as your actions inspire and uplift
+                                        those around you.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="box illustration active">
+                                <div class="image">
+                                    <img src="smile.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Helping</h4>
+                                    <p>Your kindness has the power to change lives.
+                                        Every act of help, no matter how small, makes a difference. </p>
+                                </div>
+                            </div>
+                            <div class="box illustration active">
+                                <div class="image">
+                                    <img src="up.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <h4>Helping</h4>
+                                    <p>
+                                        By helping others, you arecreating a ripple efect of goodness and positivity that can spread far 
+                                        and wide.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="section" id="blog">
+                    <section class="blog">
+                        <div class="section-title">
+                            <h2>BD WISHES</h2>
+                        </div>
+                        <div class="blog-container">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="sit.jpg" alt="">
+                                </div>
+                                <div class="blog-details">
+                                    <span class="category">Denyse</span>
+                                    <h3>HAPPY BIRTHDAY TO YOU🍔</h3>
+                                    <p>We love YOU❤️❤️</p>
+                                    <span class="date">8 July </span>
+                                </div>
+                            </div>
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="smile.jpg" alt="">
+                                </div>
+                                <div class="blog-details">
+                                    <span class="category">Denyse</span>
+                                    <h3>HAPPY BIRTHDAY TO YOU🎉</h3>
+                                    <p>We love YOU❤️❤️</p>
+                                    <span class="date">8 July </span>
+                                </div>
+                            </div>
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="stand.jpg" alt="">
+                                </div>
+                                <div class="blog-details">
+                                    <span class="category">Denyse</span>
+                                    <h3>HAPPY BIRTHDAY TO YOU🧁</h3>
+                                    <p>We love YOU❤️❤️</p>
+                                    <span class="date">8 July </span>
+                                </div>
+                            </div>
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="up.jpg" alt="">
+                                </div>
+                                <div class="blog-details">
+                                    <span class="category">Denyse</span>
+                                    <h3>HAPPY BIRTHDAY TO YOU🍔</h3>
+                                    <p>We love YOU❤️❤️</p>
+                                    <span class="date">8 July </span>
+                                </div>
+                            </div>
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="IMG-20240708-WA0006.jpg" alt="">
+                                </div>
+                                <div class="blog-details">
+                                    <span class="category">Denyse</span>
+                                    <h3>HAPPY BIRTHDAY TO YOU🎂</h3>
+                                    <p>We love YOU❤️❤️</p>
+                                    <span class="date">8 July </span>
+                                </div>
+                            </div>
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="IMG-20240708-WA0007.jpg" alt="">
+                                </div>
+                                <div class="blog-details">
+                                    <span class="category">Denyse</span>
+                                    <h3>HAPPY BIRTHDAY TO YOU🎂</h3>
+                                    <p>We love YOU❤️❤️</p>
+                                    <span class="date">8 July </span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="section" id="contact">
+                    <section class="contacts">
+                        <div class="contact">
+                            <div class="section-title">
+                                <h2>contact form</h2>
+                            </div>
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Name">
+                                    <input type="email" placeholder="E-mail">
+                                </div>
+                                <div class="form-group">
+                                    <textarea placeholder="Message"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn">submit</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="contact-info">
+                            <div class="section-title">
+                                <h2>contact informations</h2>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span>address:</span>
+                                    RWANDA, South, Ruhango
+                                </li>
+                                <li>
+                                    <span>phone:</span>
+                                    0783437733
+                                </li>
+                                <li>
+                                    <span>Occupations:</span>
+                                    Student
+                                </li>
+                                <li>
+                                    <div class="social-media">
+                                        <a href="https://wa.me/message/OQOVP6ZESG43P1?src=qr"><i class="fa-brands fa-whatsapp"></i></a>
+                                        <a href="https://www.facebook.com/fidele.willy.33"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.instagram.com/fidelewilly6?utm_source=qr&igsh=dTIOd256Y2sOZXQW"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.tiktok.com/@fidele_willy?_t=8nMXkh4XNzC&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contact-map">
+                            <div class="section-title">
+                                <h2>contact map</h2>
+                            </div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2122.40258333079!2d29.792003710513328!3d-2.2430820081744827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2srw!4v1718964836686!5m2!1sen!2srw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                        </div>
+                    </section>
+                </div>
+            </main>
+            <footer>
+                <div class="footer-container">
+                    <h2>Fidele Willy.</h2>
+                    <div class="copyright">
+                        <p>© 2024 All rights reserved. Designed by <a href="#">Fidele Willy</a></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="settings" id="settings">
+        <div class="icon">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="settings-inner">
+            <h5>select a color</h5>
+            <ul>
+                <li data-color='#ea4a6e'></li>
+                <li data-color='#52bf00'></li>
+                <li data-color='#d81300'></li>
+                <li data-color='#425cbb'></li>
+                <li data-color='#BF55Ec'></li>
+                <li data-color='#00b4d9'></li>
+                <li data-color='#029A83'></li>
+                <li data-color='#f62459'></li>
+                <li data-color='#ff5a14'></li>
+                <li data-color='#ABB7B7'></li>
+            </ul>
+            <hr />
+            <button class="reset" id="reset">reset</button>
+        </div>
+    </div>
+    <div class="preloader" id="preloader">
+        <div class="spinner">
+            <img src="profile.jpg">
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9e5ba2e3f5.js" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        let toggleBtn = document.querySelector('#toggleBtn'),
+    tabs = document.querySelector('#tabs'),
+    tabsLis = document.querySelectorAll('#tabs li a'),
+    filterLi = document.querySelectorAll('.filter li'),
+    profileBox = document.querySelectorAll('.portfolio-container .box'),
+    sections = document.querySelectorAll('.section'),
+    home = document.querySelector('[data-sec="home"'),
+    settings = document.querySelector('#settings'),
+    settingsBtn = document.querySelector('#settings .icon'),
+    colorBtn = document.querySelectorAll('#settings ul li'),
+    reset = document.querySelector('#reset'),
+    preloader = document.querySelector('#preloader');
+
+toggleBtn.addEventListener('click', () => {
+    tabs.classList.toggle('active');
+});
+ 
+/*Testimonial Slider With Bullet Points */
+let swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    breakpoints: {
+        //When window width is >= 768px
+        768: {
+            slidesPerView: 2,
+        },
+        //When window width is >= 992px
+        992: {
+            slidesPerView: 3,
+        }
+    },
+    //autoplay the slider with a delay of 2.5s
+    autoplay: {
+        delay: 2500,
+        disableInteraction: false,
+    },
+    //show the pagination bullet and make it clickable
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    //loop the slider 
+    lazyLoading: true,
+    loop: true,
+});
+
+filterLi.forEach((li) => {
+    li.addEventListener('click', (e) => {
+        filterLi.forEach((li) => {
+            li.classList.remove('active');
+        });
+        li.classList.add('active');
+        profileBox.forEach((box) => {
+            box.classList.remove('active');
+        });
+        if (e.currentTarget.dataset.profile === 'all') {
+            profileBox.forEach((box) => {
+                box.classList.add('active');
+            });
+        } else {
+            //Select All Box that Contain the same class of dataset profile and add active class on it
+            document.querySelectorAll('.' + e.currentTarget.dataset.profile).forEach((el) => {
+                el.classList.add('active');
+            });
+        }
+    })
+})
+
+tabsLis.forEach((tab) => {
+    tab.addEventListener('click', (e) => {
+        tabsLis.forEach((tab) => {
+            tab.classList.remove('active');
+        });
+        tab.classList.add('active');
+        sections.forEach((section) => {
+            section.classList.remove('active');
+        });
+        document.querySelector('#' + e.currentTarget.dataset.sec).classList.add('active');
+    });
+});
+
+home.addEventListener('click', (e) => {
+    sections.forEach((section) => {
+        section.classList.remove('active');
+    });
+    document.querySelector('#' + e.currentTarget.dataset.sec).classList.add('active');
+});
+
+settingsBtn.addEventListener('click', () => {
+    settings.classList.toggle('show');
+});
+
+colorBtn.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+        //Set Color on Root
+        document.documentElement.style.setProperty('--primaryColor', e.target.dataset.color);
+        document.documentElement.style.setProperty('--hoverColor', e.target.dataset.color);
+    });
+});
+
+reset.addEventListener('click', () => {
+    document.documentElement.style.setProperty('--primaryColor', '#d3336f');
+    document.documentElement.style.setProperty('--hoverColor', '#ea4a6e');
+})
+
+window.addEventListener('load', () => {
+    const fadeOutEffect = setInterval(() => {
+        preloader.classList.add('hide');
+        clearInterval(fadeOutEffect);
+    }, 1000);
+});
+    </script>
+</body>
+</html>
